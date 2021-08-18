@@ -1,0 +1,7 @@
+<button type='button' style='background: none;
+                                    border: 0;
+                                    margin: 2rem 0;
+                                    
+                                    color: var(--color-primary);
+                                    font: 700 2rem Archivo;
+                                    cursor: pointer;'> + Editar Dados +</button></a><br><hr>";

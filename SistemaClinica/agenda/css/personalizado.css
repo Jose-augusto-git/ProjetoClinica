@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    border-top: 4px solid #fac863;
+  }
+  
+  .fc-daygrid-dot-event .fc-event-title {
+      flex-grow: 1;
+      flex-shrink: 1;
+      min-width: 0;
+      overflow: hidden;
+      font-weight: 700;
+      color:white;
+  }
+  .fc .fc-toolbar-title {
+      color: white;
+      font-size: 1.75em;
+      margin: 0;
+  }
+  .fc .fc-timegrid-slot {
+      color: #fff;
+      height: 1.5em;
+      border-bottom: 0;
+  }
+  .fc-theme-standard td, .fc-theme-standard th {
+      color: #fff;
+  }
+  .fc a[data-navlink]:hover {
+      text-decoration: underline;
+      color: white;
+  }
+  .fc .fc-list-sticky .fc-list-day>* {
+  
+      background: var(--fc-page-bg-color,#fff) transparent 5px;
+  }
+  .fc .fc-list-event:hover td {
+      background-color: #f5f5f5;
+      background-color:  #04d361;
+  }
+  .fc-daygrid-dot-event.fc-event-mirror,
+  .fc-daygrid-dot-event:hover {
+      background: rgb(0, 0, 0);
+  }
+  
+  #top {
+    background: #222222;
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 12px;
+  }
+  
+  .left {
+    float: left
+  }
+  
+  .right {
+    float: right
+  }
+  
+  .clear {
+    clear: both
+  }
+  
+  #script-warning,
+  #loading {
+    display: none
+  }
+  
+  #script-warning {
+    font-weight: bold;
+    color: red
+  }
+  
+  #calendar {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 10px;
+  }
+  
+  .tzo {
+    color: #000;
+  }
+  
