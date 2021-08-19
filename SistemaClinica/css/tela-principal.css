@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;   
+    
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    
+  }
+
+#cor-menu{
+    background-color: #15d6d6;
+}
+
+.buttons-container{
+    border-radius: 0.3rem;
+    font: 700 1.15em Archivo;
+    transition: background 0.2s;
+    
+}
+.buttons-container a:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    
+}
+
+#sair a:hover{  
+    background: #ab2727;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .8);
+
+}
+
+#sair{
+    font: 700 1.1em Archivo;
+    
+}
+
+#sair:active{
+position:relative;
+top:5px;
+box-shadow:none;
+transition: 0.5s;
+
+}
+
+.buttons-container:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+    transition: 0.5s;
+      
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+

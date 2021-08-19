@@ -17,19 +17,19 @@ include_once 'conexao.php';
     Consulta apagada com sucesso!
     </div>';
 
-    header("Location: agenda.php");
+    header("Location: index.php");
 
     }else{
         $_SESSION['msg'] = '<div class="alert alert-danger">
         Ops... Erro ao apagar a consltar!
     </div>';
 
-    header("Location: agenda.php");
+    header("Location: index.php");
     }
  }else{
     $_SESSION['msg'] = '<div class="alert alert-danger">
     Ops... Erro ao apagar a consltar!
     </div>';
-    header("Location: agenda.php");
+    header("Location: index.php");
 
  }
